@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#cb6ce6"> <!-- Fondo morado -->
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/tvDietManagement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gestión de Dietas"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+    <!-- Spinner de días -->
+    <Spinner
+        android:id="@+id/spinnerDayOfWeek"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvDietManagement"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Spinner de usuarios -->
+    <Spinner
+        android:id="@+id/spinnerUser"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/spinnerDayOfWeek"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Campo de entrada: Desayuno -->
+    <EditText
+        android:id="@+id/etBreakfast"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Desayuno"
+        android:background="@drawable/edit_text_background"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/dark_gray"
+        app:layout_constraintTop_toBottomOf="@id/spinnerUser"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Campo de entrada: Almuerzo -->
+    <EditText
+        android:id="@+id/etLunch"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Almuerzo"
+        android:background="@drawable/edit_text_background"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/dark_gray"
+        app:layout_constraintTop_toBottomOf="@id/etBreakfast"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Campo de entrada: Merienda -->
+    <EditText
+        android:id="@+id/etSnack"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Merienda (opcional)"
+        android:background="@drawable/edit_text_background"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/dark_gray"
+        app:layout_constraintTop_toBottomOf="@id/etLunch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Campo de entrada: Cena -->
+    <EditText
+        android:id="@+id/etDinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Cena"
+        android:background="@drawable/edit_text_background"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/dark_gray"
+        app:layout_constraintTop_toBottomOf="@id/etSnack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Botón para guardar día -->
+    <Button
+        android:id="@+id/btnSaveDay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Guardar Día"
+        android:background="@drawable/button_background"
+        android:textColor="@color/colorBackground"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/etDinner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

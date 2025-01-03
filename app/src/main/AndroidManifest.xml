@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppNutricion"
+        tools:targetApi="31">
+        <activity
+            android:name=".NotificationsAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Notification"
+            android:exported="false" />
+        <activity
+            android:name=".TrainerRequestsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".RequestsAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".ChooseTrainerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".models.Request"
+            android:exported="false" />
+        <activity
+            android:name=".TrainerListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adapters.TrainerAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".models.Trainer"
+            android:exported="false" />
+        <activity
+            android:name=".adapters.ReviewsAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".models.Review"
+            android:exported="false" />
+        <activity
+            android:name=".ReviewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateWeightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Diet.DaysOfWeekAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".Diet.DayDietDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Diet.DietUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Diet.DietWeekAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".CalculateIMCActivity"
+            android:exported="true" />
+        <activity
+            android:name=".adapters.MessageAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".Messages.MessagesActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppNutricion" />
+        <activity
+            android:name=".models.Message"
+            android:exported="false" />
+        <activity
+            android:name=".models.User"
+            android:exported="true" />
+        <activity
+            android:name=".UserAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".ViewUsersActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppNutricion" />
+        <activity
+            android:name=".Diet.DietDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Diet.DietSummaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Diet.EditDietActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Diet.DietManagementAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".Diet.ViewDietActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Diet.DietWeek"
+            android:exported="false" />
+        <activity
+            android:name=".Diet.DietDay"
+            android:exported="false" />
+        <activity
+            android:name=".Diet.DietManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppNutricion">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppNutricion" />
+        <activity
+            android:name=".User.UserBaseActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppNutricion" />
+        <activity
+            android:name=".TrainerBaseActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppNutricion" />
+    </application>
+
+</manifest>

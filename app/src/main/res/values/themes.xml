@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tema base para la aplicación -->
+    <style name="Theme.AppNutricion" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Colores principales -->
+        <item name="colorPrimary">@color/colorPrimary</item> <!-- Azul principal -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item> <!-- Azul oscuro -->
+        <item name="colorAccent">@color/colorAccent</item> <!-- Amarillo -->
+
+        <!-- Colores para la barra de estado -->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+
+        <!-- Colores de fondo y texto -->
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+        <item name="android:textColorSecondary">@color/colorTextSecondary</item>
+
+        <!-- Personalización de la Action Bar (si decides usarla) -->
+        <item name="actionBarStyle">@style/Widget.AppCompat.ActionBar</item>
+    </style>
+
+</resources>

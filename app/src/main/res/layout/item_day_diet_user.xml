@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:layout_margin="8dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true">
+
+    <!-- Nombre del día -->
+    <TextView
+        android:id="@+id/tvDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lunes"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Texto para ver la dieta -->
+    <TextView
+        android:id="@+id/tvViewDiet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver Dieta"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

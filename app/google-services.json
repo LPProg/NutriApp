@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "217567320689",
+    "firebase_url": "https://nutriapp-9f068-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "nutriapp-9f068",
+    "storage_bucket": "nutriapp-9f068.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217567320689:android:05b99ac7ff17cc175d19d0",
+        "android_client_info": {
+          "package_name": "com.example.appnutricion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiCKoB43bAD795x9pqSvsbFgUiZdpNuII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

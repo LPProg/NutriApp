@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etBreakfast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Desayuno" />
+
+    <EditText
+        android:id="@+id/etLunch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Almuerzo" />
+
+    <EditText
+        android:id="@+id/etSnack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Merienda" />
+
+    <EditText
+        android:id="@+id/etDinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cena" />
+
+    <Button
+        android:id="@+id/btnSaveDiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Dieta" />
+</LinearLayout>
